@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo" style="font-weight: bold;">Hifza Nasir</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Education</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Hifza Nasir</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Hifza</h1>
+        <p class="section__text__p2">Software Engineer</p>
+
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact
+          </button>
+        </div>
+        <div id="socials-container">
+          <div class="contact-info-container hover-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/hifza-nsr/'"
+          />
+        </div>
+        <div class="contact-info-container hover-container">
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Hifzza'"
+          />
+        </div>
+          
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">Education</h1>
+      <div class="section-container">
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/AAU_CIRCLE_KBH_blue_rgb.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Aalborg University Copenhagen</h3>
+              <p>2024 - Expected 2026 <br />M.Sc. Eng. Software</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/AAU_CIRCLE_KBH_blue_rgb.png"
+                class="icon"
+              />
+              <h3>Aalborg University Copenhagen</h3>
+              <p>2021 - 2024 <br />B.Sc. Bachelors Degree In Software Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              During my Bachelor's, I worked on a project focused on AI, Machine Learning, and Natural Language Processing (NLP). The project was designed to assist teachers by enhancing their teaching methods and saving time through a Problem-Based Learning (PBL) solution. The system provided an innovative approach to education by integrating AI to optimize lesson planning and content delivery. The entire solution was deployed using Streamlit, making it easily accessible and user-friendly for educators.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/js.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+              <article>
+                <img
+                  src="./assets/css-3.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+              <article>
+                <img
+                  src="./assets/html-5 (1).png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+              <article>
+                <img
+                  src="./assets/typescript.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+              <article>
+                <img
+                  src="./assets/angular.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+              <article>
+                <img
+                  src="./assets/tailwind.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+              <article>
+                <img
+                  src="./assets/react.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/java.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+              <article>
+                <img
+                  src="./assets/clipart3515666.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+              <article>
+                <img
+                  src="./assets/node.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+
+              </article>
+              <article>
+                <img
+                  src="./assets/mongo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+              <article>
+                <img
+                  src="./assets/docker.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Machine Learning</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/python.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                </article>
+                <article>
+                  <img
+                    src="./assets/jupyter-logo-A91705F539-seeklogo.com.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                </article>
+                <article>
+                  <img
+                    src="./assets/keras.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                </article>
+                <article>
+                  <img
+                    src="./assets/tensor.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Others</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/trello.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                </article>
+                <article>
+                  <img
+                    src="./assets/vs.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                </article>
+                <article>
+                  <img
+                    src="./assets/github.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+  
+                </article>
+                <article>
+                  <img
+                    src="./assets/cicd.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+
+
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/educado.png"
+                alt="Project 1" 
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Educado</h2>
+            <p class="project-description">
+              Educado is a web application developed in partnership with Aalborg University and the University of Brasília (UnB) to support Brazilian waste pickers. Aligned with SDG 4: Quality Education, Educado enhances their skills and knowledge, enabling them to access better job opportunities.             
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Educado-App/educado-frontend'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://educado.io/welcome'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/aiblack.png"  alt="AI Image" height="150" width="300">
+            </div>
+            <h2 class="experience-sub-title project-title"> AI Chatbot</h2>
+            <p class="project-description"> AI chatbot technology for improving teaching at universities which provides a summarized verson of feedback and a PBL solution.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Hifzza/P6G7AAU-2024'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/heart.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Heart Disease Prediction </h2>
+            <p class="project-description">Heart Disease Prediction uses a Feedforward Neural Network (FFNN) to analyze key health indicators and predict heart disease risk with high accuracy. The application provides predictions.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Hifzza/Capstone-Project--Heart-Disease'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+  </section>
+  <section id="projects">
+    <p class="section__text__p1"></p>
+    <h1 class="title"></h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/cardv.png"
+              alt="Project 1" 
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Valentines Day Card</h2>
+          <p class="project-description">
+            A virtual Valentine's Day card with secret message inside.             
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/Hifzza/Valentines-Day-Card'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://hifzza.github.io/Valentines-Day-Card/'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/portfolio.png"  alt="AI Image" height="150" width="300">
+          </div>
+          <h2 class="experience-sub-title project-title"> Investalent</h2>
+          <p class="project-description"> A investing webapplication allows users to simulate investments using virtual currency, tracking real-time stock data from a live API. The site offers an educational experience by providing users with real-world market conditions without any financial risk.
+
+            .</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/Havkost/P2FemaleInvest'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/compiler.png"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">CLite - Compiler</h2>
+          <p class="project-description">A C-like imperative programming language.</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/Hifzza/CLite---Compiler'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+  </section>
+
+
+
+
+
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container hover-container">
+        <a href="mailto:hifzanasir16@gmail.com">
+          <img
+            src="./assets/maill.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+        </a>
+        <p class="hover-text"><a href="mailto:hifzanasir16@gmail.com">Email</a></p>
+      </div>
+      <div class="contact-info-container hover-container">
+        <a href="https://discord.com/users/596087522652717071">
+          <img
+            src="./assets/discord1.png"
+            alt="Discord icon"
+            class="icon contact-icon discord-icon"
+          />
+        </a>
+        <p class="hover-text"><a href="https://discord.com/users/596087522652717071">Discord</a></p>
+      </div>
+      <div class="contact-info-container hover-container">
+        <a href="https://linkedin.com/in/hifza-nsr">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon linkedin-icon"
+          />
+        </a>
+        <p class="hover-text"><a href="https://linkedin.com/in/hifza-nsr">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container hover-container">
+        <a href="https://github.com/Hifzza">
+          <img
+            src="./assets/github.png"
+            alt="GitHub icon"
+            class="icon contact-icon github-icon"
+          />
+        </a>
+        <p class="hover-text"><a href="https://github.com/Hifzza">GitHub</a></p>
+      </div>
+    </div>
+  </section>
+  
+    
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Education</a></li>
+            <li><a href="#  ">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Hifza Nasir. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
